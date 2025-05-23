@@ -5,7 +5,7 @@
             speed: 12,
             blinkSpeed: 2,
             showCursor: true,
-            blinkingCursor: true,
+            blinkingCursor: false,
             cursor: '|',
             selectedBackground: '#F1F1F1',
             selectedText: '#333333'

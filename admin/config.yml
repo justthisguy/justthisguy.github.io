@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: sujaykundu777/sujaykundu777.github.io
+  repo: justthisguy/justthisguy.github.io
   branch: master
-  site_domain: agitated-northcutt-53b578.netlify.app
+  site_domain: kendecanio.com
 
 media_folder: "assets/img/posts" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/img/posts" # The src attribute for uploaded media will begin with /images/uploads
@@ -14,17 +14,17 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Layout",         name: "layout",        widget: "hidden", default: "post"}
+      - {label: "Author",         name: "author",        widget: "string"}
+      - {label: "Title",          name: "title",         widget: "string"}
+      - {label: "Publish Date",   name: "date",          widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail-img", widget: "image"}
-      - {label: "Category", name: "category", widget: "string", default: "jekyll"}
-      - {label: "Summary", name: "summary", widget: "string"}
-      - {label: "Keywords", name: "keywords", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Thumbnail", name: "thumbnail", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Category",       name: "category",      widget: "string", default: "jekyll"}
+      - {label: "Summary",        name: "summary",       widget: "string"}
+      - {label: "Keywords",       name: "keywords",      widget: "string"}
+      - {label: "Body",           name: "body",          widget: "markdown"}
+      - {label: "Thumbnail",      name: "thumbnail",     widget: "string"}
+      - {label: "Permalink",      name: "permalink",     widget: "string"}
   - name: "page"
     label: "Page"
     folder: "_pages"

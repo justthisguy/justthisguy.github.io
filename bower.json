@@ -1,10 +1,10 @@
 {
-  "name": "devlopr-jekyll",
-  "homepage": "https://github.com/sujaykundu777/devlopr-jekyll",
+  "name": "kendecanio",
+  "homepage": "kendecanio.com",
   "authors": [
-    "sujaykundu777 <sujaykundu777@gmail.com>"
+    "ken decanio <actual@kendecanio.com>"
   ],
-  "description": "A Jekyll Theme Built For Developers",
+  "description": "A website for Ken",
   "main": "",
   "keywords": [
     "jekyll-theme",
