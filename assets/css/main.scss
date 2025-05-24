@@ -6,3 +6,31 @@
 .example-main {
   color: blue;
 }
+
+.has-pullquote::before {
+  content: attr(data-pullquote);
+  float: right;
+  width: 320px;
+  margin: 12px -140px 24px 36px;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+
+.pquote {
+  font-family: "MS Sans Serif", sans-serif;
+  float: right;
+  width: 300px;
+  font-weight: light;
+  padding: 12px 12px 0 12px;
+  margin: 0 40px 0 40px;
+  border: 5px solid #fa0;
+}
+
+.pquote[data-theme="dark"]  {
+  background: #000;
+}
+
+.pquote[data-theme="light"]  {
+  background: #fff;
+}

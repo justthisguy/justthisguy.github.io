@@ -3,7 +3,7 @@ name: Ken Decanio
 username: Ken Decanio
 bio: "I am a software engineer by training, a product manager by nature, and a startup guy by instanity."
 site: http://kendecanio.com
-avatar: kendecanio.jpg
+avatar: johndoe.png
 email: actual@kendecanio.com
 social:
     - title: "github"

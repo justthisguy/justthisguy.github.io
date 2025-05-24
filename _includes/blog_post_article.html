@@ -27,55 +27,11 @@
       </span>
     </p>
 
-    <!-- <h4 class="post-meta">{{ page.summary }}</h4> -->
 
   </div>
 
   <div class="card-body" itemprop="articleBody" style="font-size: 24px">
-<!--
-    <img
-      class="card-img-top"
-      src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}"
-      alt="{{ post.title }}"
-    />
-    <br />
-    <br />
-
- -->
     {{ content }}
-    <br />
-    {%- include share_page.html -%}
-    <!-- Author box -->
-    {% assign author = site.data.authors[page.author] %}
-      {% if author %}
-      {% include author.html %}
-    {% endif %}
+    <br>
   </div>
-
-  <div class="comments">
-    <script src="https://giscus.app/client.js"
-        data-repo="sujaykundu777/devlopr-jekyll"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkxMzk1NzQ1NTY="
-        data-category="General"
-        data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyODk4MTky"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
-  </div>
-
-  {%- if site.hyvor_talk_website_id -%}
-  <div class="comments">
-    {%- include hyvor_comments.html -%}
-   </div>
-    {%- endif -%}
-  <!-- Incomment incase you want to use Disqus
-      <div id="disqus_thread"></div>
-   -->
 </article>
