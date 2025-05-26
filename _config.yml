@@ -27,7 +27,7 @@ urls:
 author_logo: kendecanio.jpg
 author: Ken Decanio
 author_bio: I am a software engineer by training, a product manager by nature, and a startup guy by instanity.
-author_email: "actual@kendecanio.com"
+# author_email: "actual@kendecanio.com"
 author_location: San Francisco
 author_website_url: "https://kendecanio.com"
 typewrite-text: we live in interesting times. let's find our way through. we are better together.
