@@ -18,15 +18,15 @@ urls:
     #   url: /gallery
     # - text: Shop
     #   url : /shop
-    - text: Contact
-      url : /contact
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: kendecanio.jpg
 author: Ken Decanio
-author_bio: I am a software engineer by training, a product manager by nature, and a startup guy by instanity.
+author_bio: I am a software engineer by training, a product manager by nature, and a startup guy by insanity.
 # author_email: "actual@kendecanio.com"
 author_location: San Francisco
 author_website_url: "https://kendecanio.com"
@@ -131,6 +131,14 @@ paginate_path: "/blog/page/:num/"
 #   layout: archive
 #   permalinks:
 #     category: '/category/:name/'
+
+
+# Custom headers
+# webrick:
+#   headers:
+#     Content-Security-Policy: default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';
+#     My-Other-Header: My-Other-Value
+
 
 collections:
   products:
