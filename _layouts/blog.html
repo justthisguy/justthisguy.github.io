@@ -10,7 +10,9 @@ layout: default
         <div class="row">
           {% for post in paginator.posts %}
           <div class="card blog-post">
-            <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <img class="card-img-top" src="{{site.url}}{{site.baseurl}}{{ post.thumbnail }}" alt="{{ post.title }}">
+            </a>
             <div class="card-body center">
               <!-- Since I am the only author, do not need this
               <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="author-profile-img">
